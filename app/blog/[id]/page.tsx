@@ -16,11 +16,11 @@ async function getData(id:string) {
   return response.json()
 }
 
-export async function generateMetaData({ params:{ id } }: Props ):Promise<Metadata>{
-  return {
-    title:id,
-  };
-}
+// export async function generateMetaData({ params:{ id } }: Props ):Promise<Metadata>{
+//   return {
+//     title:id,
+//   };
+// }
 
 export default async function Post({ params:{ id } }: Props ) {
 
